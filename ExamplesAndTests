@@ -1,0 +1,78 @@
+USAGE: java -jar Pop3Receiver.jar pop3server_address user_name user_password [startLetterNum:endLetterNum]
+
+WARNING: for the correct work of the program you need JVM with version higher than 1.7.0
+
+Example of USAGE (letters from my test mail box):
+
+Mail to vyrostkoolga@rambler.ru
+Info for letter № 1:
+ 	Размер: 208130;
+ 	От кого: Команда Рамблер-Почты <mail-news@rambler-co.ru>;
+ 	Кому: Ольга Выростко <vyrostkoolga@rambler.ru>;
+ 	Тема: Приветствуем в Рамблер-Почте! 
+	Date: 22-Apr-2015 17:25:43 +0300;
+ 	Attachments (0):
+
+Info for letter № 2:
+ 	Размер: 57049;
+ 	От кого: vyrostkoolga <vyrostkoolga@yandex.ru>;
+ 	Кому: vyrostkoolga <vyrostkoolga@yandex.ru>;
+ 	Тема: test
+	Date: Sat, 25 Apr 2015 19:07:51 +0300;
+ 	Attachments (1):
+	-Имя файла: 1.jpg; Размер: 40051; Тип: image/jpg;
+
+Info for letter № 3:
+ 	Размер: 2314;
+ 	От кого: Ольга Выростко <vyrostkoolga@rambler.ru>;
+ 	Кому: vyrostkoolga@rambler.ru;
+ 	Тема: Длинная русскоязычная тема здесь написана для проведения тестирования программы по чтению почты и декодированию всех заголовков 
+	Date: Sun, 3 May 2015 17:55:25 +0300;
+ 	Attachments (0):
+
+Info for letter № 4:
+ 	Размер: 40014;
+ 	От кого: Ольга Выростко <vyrostkoolga@gmail.com>;
+ 	Кому: vyrostkoolga@rambler.ru;
+ 	Тема: Картинки 
+	Date: Tue, 5 May 2015 07:23:25 +0500;
+ 	Attachments (0):
+
+Info for letter № 5:
+ 	Размер: 1683901;
+ 	От кого: Ольга Выростко <vyrostkoolga@gmail.com>;
+ 	Кому: vyrostkoolga@rambler.ru;
+ 	Тема: Тестовое письмо с вложениями 
+	Date: Tue, 5 May 2015 08:53:52 +0500;
+ 	Attachments (12):
+	-Имя файла: 1-web.jpg; Размер: 202857; Тип: image/jpeg;
+	-Имя файла: 791f94df.jpg; Размер: 146618; Тип: image/jpeg;
+	-Имя файла: 1773_4.jpg; Размер: 160295; Тип: image/jpeg;
+	-Имя файла: 2862.jpg; Размер: 116919; Тип: image/jpeg;
+	-Имя файла: 4153.jpg; Размер: 27666; Тип: image/jpeg;
+	-Имя файла: 4207_1.jpg; Размер: 28512; Тип: image/jpeg;
+	-Имя файла: 11699753.jpg; Размер: 82708; Тип: image/jpeg;
+	-Имя файла: 11999820.jpg; Размер: 60187; Тип: image/jpeg;
+	-Имя файла: 23325701.jpg; Размер: 90823; Тип: image/jpeg;
+	-Имя файла: 34072593.jpg; Размер: 47674; Тип: image/jpeg;
+	-Имя файла: 45149109.jpg; Размер: 189699; Тип: image/jpeg;
+	-Имя файла: Копия Neuschwa.jpg ; Размер: 98769; Тип: image/jpeg;
+
+Info for letter № 6:
+ 	Размер: 694407;
+ 	От кого: Ольга Выростко <vyrostkoolga@rambler.ru>;
+ 	Кому: "Vyrostkoolga" <vyrostkoolga@rambler.ru>;
+ 	Тема: Текст 
+	Date: Tue, 5 May 2015 09:07:04 +0300;
+ 	Attachments (1):
+	-Имя файла: Вера как центр духовной жизни человека.docx ; Размер: 502053; Тип: application/vnd.openxmlformats-officedocument.wordprocessingml.document;
+
+Info for letter № 7:
+ 	Размер: 2828276;
+ 	От кого: Ольга Выростко <vyrostkoolga@rambler.ru>;
+ 	Кому: "Vyrostkoolga" <vyrostkoolga@rambler.ru>;
+ 	Тема: Презентация 
+	Date: Tue, 5 May 2015 09:07:41 +0300;
+ 	Attachments (2):
+	-Имя файла: 03-Networks1.ppt; Размер: 813056; Тип: application/vnd.ms-powerpoint;
+	-Имя файла: 06-Networks1.pptx; Размер: 1237693; Тип: application/vnd.openxmlformats-officedocument.presentationml.presentation;
